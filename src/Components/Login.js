@@ -21,7 +21,7 @@ const Login = () => {
 
         axios.post(`https://testapi.teleskop.app/v2.0/users/login`, {email, password})
             .then( res => {
-                console.log(res.data);
+                //console.log(res.data);
                 //console.log(res.data.status); 
                alert("wrong email or password");              
                 dispatch(
